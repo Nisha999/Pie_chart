@@ -32,7 +32,8 @@ class Pie extends Component {
              value={value}
              label={value.data}
              dataCategory={dataCategory[i]}
-             fill={fill[i]} />
+             fill={fill[i]}
+             />
     );
   }
 }

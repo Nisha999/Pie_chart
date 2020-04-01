@@ -1,12 +1,12 @@
 // import React, { Component } from 'react';
-// import App from '../App'
+// import App from './App'
 // import './App.css';
 
 
 
 // class SelectionForm extends React.Component {
-//     constructor(props) {
-//       super(props);
+//     constructor() {
+//       super();
 //       this.state = {SelectedValue: 'preferredStyle'};
   
 //       this.handleChange = this.handleChange.bind(this);
@@ -20,11 +20,12 @@
 //     handleSubmit(event) {
 //       // alert('Your favorite flavor is: ' + this.state.value);
 //       event.preventDefault();
+    
 //     }
   
 //     render() {
 //       return (
-      
+     
 //         <form onSubmit={this.handleSubmit}>
 //           <label>
 //             Pick your favorite flavor:
@@ -37,14 +38,15 @@
 //           </label>
 //           <input type="submit" value="Submit" />
 //         </form>
-        
+         
 //       );
 //     }
 //   }
   
-//   // ReactDOM.render(
-//   //   <SelectionForm />,
-//   //   document.getElementById('root')
-//   // );
+// //   ReactDOM.render(
+// //     <SelectionForm />,
+// //     document.getElementById('root')
+// //   );
+
 
 //   export default SelectionForm;
