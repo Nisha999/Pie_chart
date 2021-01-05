@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "http://Nisha999.github.io/Pie_chart",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "d3": "^4.13.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
